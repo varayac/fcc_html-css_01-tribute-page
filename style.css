@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400&display=swap');
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Sarabun';
+  text-align: center;
+  margin: 0;
+  color: #260101;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #2a334c;
+}
+
+a:visited {
+  color: #4e5572;
+}
+
+#main {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #e8e3db;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: #e8e3db;
+  padding: 10px;
+  margin: 0px;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+}
+
+ul {
+  max-width: 550px;
+  text-align: left;
+  font-style: italic;
+  margin: 0 auto 50px auto;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+}
